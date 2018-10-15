@@ -15,6 +15,15 @@ That's why when you:
 make sure that it is in the file path:
 `$GOPATH/src/github.com/Lebonesco/`
 
+### Install the Parser Tool (gocc)
+```git clone https://github.com/goccmack/gocc.git```
+
+It will download to `$GOPATH/go/bin`
+Make sure that this directory is in ur path
+
+### Generate the Lexer
+gocc quack.bnf
+
 To run program with test file/file path:
 `go run main.go text.txt`
 
