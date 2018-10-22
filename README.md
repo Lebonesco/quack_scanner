@@ -41,12 +41,14 @@ At this point, everything can be run from the `Makefile`
 ```git clone https://github.com/goccmack/gocc.git```
 
 It will download to `$GOPATH/go/bin`
+
 Make sure that this directory is in your `Path`
 
 ### Generate the Lexer and Parser
 gocc quack.bnf
 
 ### Run Program 
+
 To run program with test file/file path:
 `go run main.go text.txt`
 
